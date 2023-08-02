@@ -24,6 +24,7 @@ You can manage your stories in this app.
 ```bash
   cd server-side
   composer install
+  cp .env.example .env
   php artisan key:generate
   php artisan migrate --seed
   php artisan passport:install
