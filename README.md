@@ -29,6 +29,13 @@ You can manage your stories in this app.
   php artisan migrate --seed
   php artisan passport:install
 ```
+#### If you can't access app with provided credential please follow.
+```bash
+  php artisan cache:clear
+  php artisan passport:install
+```
+  You can get the 'Client ID' and 'Client secret' from terminal
+  Copy and past these data to vue-client\src\config\env.js
 
 
 ## Authors
